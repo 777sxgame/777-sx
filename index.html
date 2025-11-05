@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="">
+    <title>777 SX Safe Money Guide | Deposit & Withdraw Easy</title>
+    <meta name="description" content="Learn safe deposit and withdrawal steps for 777 SX. Protect your money and play smart with our simple, secure guide. Start now!">
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0c1f3d 0%, #1a3a6a 100%);
+            color: #f0f0f0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: rgba(10, 25, 47, 0.95);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 60px;
+            transition: transform 0.5s ease;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            color: #f0f0f0;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            background: rgba(255, 215, 0, 0.2);
+            color: #ffd700;
+        }
+        
+        .mobile-menu {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        /* Hero Section with Parallax */
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-top: 100px;
+        }
+        
+        .parallax-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 120%;
+            background: url('https://777sx.pk/wp-content/uploads/2025/10/1982489450475413506.webp') center/cover no-repeat;
+            z-index: -1;
+            transform: translateY(0);
+            transition: transform 0.3s ease-out;
+        }
+        
+        .hero-content {
+            background: rgba(10, 25, 47, 0.85);
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1.5s ease;
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700 0%, #ffaa00 100%);
+            color: #0c1f3d;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5);
+        }
+        
+        /* Content Sections */
+        section {
+            padding: 80px 0;
+        }
+        
+        h2 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            color: #ffd700;
+            text-align: center;
+            position: relative;
+        }
+        
+        h2:after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #ffd700;
+            margin: 15px auto;
+            border-radius: 2px;
+        }
+        
+        .content-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .content-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #4da6ff;
+        }
+        
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+        
+        .step-number {
+            background: #ffd700;
+            color: #0c1f3d;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .download-section {
+            text-align: center;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 40px 0;
+            border: 2px dashed #ffd700;
+        }
+        
+        .download-btn {
+            background: linear-gradient(135deg, #4da6ff 0%, #0066cc 100%);
+            margin-top: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        .download-btn:hover {
+            background: linear-gradient(135deg, #66b3ff 0%, #0073e6 100%);
+        }
+        
+        /* Security Tips */
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .tip-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .tip-card:hover {
+            background: rgba(77, 166, 255, 0.1);
+            transform: translateY(-5px);
+        }
+        
+        .tip-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+        
+        /* Footer */
+        footer {
+            background: rgba(5, 15, 30, 0.95);
+            padding: 40px 0 20px;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: #f0f0f0;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #ffd700;
+        }
+        
+        .copyright {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+            }
+            
+            .logo {
+                margin-bottom: 15px;
+            }
+            
+            nav ul {
+                margin-top: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 5px 10px;
+            }
+            
+            .hero {
+                height: 70vh;
+                margin-top: 150px;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .mobile-menu {
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            
+            .nav-menu {
+                display: none;
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+            }
+            
+            .nav-menu.active {
+                display: block;
+            }
+            
+            .step {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .step-number {
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero-content {
+                padding: 20px;
+            }
+            
+            .content-card {
+                padding: 20px;
+            }
+            
+            section {
+                padding: 50px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+                <img src="https://777sx.pk/wp-content/uploads/2025/10/1982489450475413506.webp" alt="777 SX Logo" class="logo">
+            <div class="mobile-menu">☰</div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#deposit">Deposit Guide</a></li>
+                    <li><a href="#withdraw">Withdraw Guide</a></li>
+                    <li><a href="#security">Security Tips</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Parallax -->
+    <section class="hero">
+        <div class="parallax-bg" id="parallax-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>777 SX: How to Deposit and Withdraw Money Safely</h1>
+                <p>Welcome to the exciting world of 777 SX! Starting your gaming journey is fun. But first, you need to know how to handle your money safely. This guide will show you simple and secure ways to deposit and withdraw money in the <a href="https://777sx.pk/">777 SX</a> game. We will use easy steps. This helps you focus on playing without worry.</p>
+                <p>Let's learn how to keep your money and your personal information safe.</p>
+                <a href="#deposit" class="btn">Learn Safe Banking</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Safe Money Handling Section -->
+    <section id="why-safe">
+        <div class="container">
+            <h2>Why Safe Money Handling in 777 SX is Crucial</h2>
+            <div class="content-card fade-in">
+                <p>When you play games like 777 SX online, you are sharing your financial details. This includes your bank card or e-wallet information. Safe practices protect you from fraud and scams. A recent report by Cybersecurity Ventures predicted that cybercrime will cost the world $9.5 trillion USD in 2024. This shows why being careful online is more important than ever.</p>
+                <p>By following safe steps, you protect your hard-earned money. You also ensure a smooth and happy gaming experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deposit Guide Section -->
+    <section id="deposit">
+        <div class="container">
+            <h2>Your Step-by-Step Guide to Depositing Money in 777 SX</h2>
+            <div class="content-card fade-in">
+                <p>Depositing money, or adding funds to your 777 SX account, is simple. Here is a safe way to do it.</p>
+                
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3>Find the Official 'Cashier' or <a href="https://docs.google.com/spreadsheets/d/15jfz39POxXOZ_7zNRF1e3stonJpk0_XgAvaugqaZtvE/edit?gid=0#gid=0">'</a>Bank' Section</h3>
+                        <p>Always log in to your 777 SX account through its official website or app. Do not use links from emails or messages. Once inside, look for a button that says "Deposit," "Bank," or "Cashier." This is the secure area for all money moves.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3>Pick Your Payment Method</h3>
+                        <p>The 777 SX platform will offer different ways to pay. Common options include Credit or Debit Cards (like Visa or Mastercard), E-Wallets (like PayPal, Skrill, or Neteller), and Bank Transfers. Choose the method you are most comfortable with. E-wallets can add an extra layer of security. This is because you do not share your bank details directly with the gaming site.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3>Enter the Amount and Details Carefully</h3>
+                        <p>Type in how much money you want to add. Always check the numbers twice. You will also need to enter your payment details. Make sure you are in a private place when you do this. Do not use public Wi-Fi for financial transactions.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3>Confirm and Start Playing</h3>
+                        <p>After you check all the information, click the "Confirm" or "Deposit" button. The money should be in your 777 SX account quickly. Now you are ready to play!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Withdraw Guide Section -->
+    <section id="withdraw">
+        <div class="container">
+            <h2>How to Withdraw Your Winnings from 777 SX Safely</h2>
+            <div class="content-card fade-in">
+                <p>Withdrawing money means taking your winnings out of the game and into your bank account or e-wallet. This process needs a little more care.</p>
+                
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3>Check the Rules for Withdrawals</h3>
+                        <p>Before you try to withdraw, go to the "Terms and Conditions" or "Banking" section. Look for rules about withdrawals. Check the verification process, processing time, and any fees. Most sites, including 777 SX, need to verify your identity for safety.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3>Use the Same Method You Used for Deposit</h3>
+                        <p>This is a very important safety tip. If you deposited money using your Visa card, you should withdraw back to that same Visa card. If you used an e-wallet like Skrill, withdraw to that same Skrill account. This rule helps prevent fraud and makes the process smoother.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3>Start the Withdrawal Request</h3>
+                        <p>Go back to the "Cashier" section. This time, select "Withdraw." Enter the amount you wish to take out. Make sure it is within the limits set by 777 SX.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3>Complete Any Verification Checks</h3>
+                        <p>If this is your first withdrawal, the 777 SX support team might contact you. They will ask for documents to verify your identity<a href="https://docs.google.com/spreadsheets/d/1hjQKOJTytgn6TDygceCDaTV4a1cXQgM5ST2jMV5t7HM/edit?gid=0#gid=0">.</a> This is a normal and good security step. Send the clear documents they ask for. This helps them release your money faster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download">
+        <div class="container">
+            <div class="download-section fade-in">
+                <h2>Get the 777 SX Game Now!</h2>
+                <p>Ready to experience the excitement of 777 SX? Download the game now and enjoy safe, secure gaming with multiple payment options.</p>
+                <a href="https://game-download-apk-777sx.bitbucket.io/" class="btn download-btn">Download 777SX Game APK</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Tips Section -->
+    <section id="security">
+        <div class="container">
+            <h2>Top Security Tips for Your 777 SX Account</h2>
+            <div class="tips-grid">
+                <div class="tip-card fade-in">
+                    <div class="tip-icon">🔒</div>
+                    <h3>Create a Super Strong Password</h3>
+                    <p>Do not use simple passwords like "123456." Use a mix of uppercase letters, lowercase letters, numbers, and symbols. For example, a password like "Sun@Glow$2024!" is much stronger.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-icon">📱</div>
+                    <h3>Turn On Two-Factor Authentication (2FA)</h3>
+                    <p>If 777 SX offers it, always turn on 2FA. This adds a second step to logging in, like a code sent to your phone. It stops others from accessing your account, even if they have your password.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-icon">🚫</div>
+                    <h3>Beware of Phishing Emails</h3>
+                    <p>Scammers may send fake emails that look like they are from 777 SX. They might ask you to click a link and log in. Never click on these links. Always go directly to the 777 SX website yourself.</p>
+                </div>
+                
+                <div class="tip-card fade-in">
+                    <div class="tip-icon">🛡️</div>
+                    <h3>Keep Your Device Secure</h3>
+                    <p>Use good antivirus software on your computer or phone. Keep your device's operating system updated. These updates often include important security fixes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Solving Section -->
+    <section id="problems">
+        <div class="container">
+            <h2>What to Do If You Have a Problem</h2>
+            <div class="content-card fade-in">
+                <p>Sometimes, problems can happen. A deposit might not show up. Or a withdrawal could be delayed. Do not panic.</p>
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3>Stay Calm</h3>
+                        <p>Most issues can be fixed. Take a deep breath and don't worry too much.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3>Check Your Transaction History</h3>
+                        <p>Look in your 777 SX account for any messages or status updates about your transaction.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3>Contact Customer Support</h3>
+                        <p>This is your best friend. Use the official "Contact Us" page on the 777 SX website. Explain your problem clearly and politely. Give them all the needed details, like your username and transaction ID.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://777sx.pk/">Home</a>
+                <a href="#deposit">Deposit Guide</a>
+                <a href="#withdraw">Withdraw Guide</a>
+                <a href="#security">Security Tips</a>
+                <a href="#download">Download</a>
+            </div>
+            <p class="copyright">© 2025 777 SX Game. All rights reserved. Play responsibly.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Parallax Effect
+        window.addEventListener('scroll', function() {
+            const parallaxBg = document.getElementById('parallax-bg');
+            let scrollPosition = window.pageYOffset;
+            parallaxBg.style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
+        });
+        
+        // Fade-in Animation on Scroll
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const fadeInOnScroll = function() {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+        };
+        
+        window.addEventListener('scroll', fadeInOnScroll);
+        // Initial check in case elements are already in view
+        fadeInOnScroll();
+        
+        // Mobile Menu Toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        mobileMenu.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.padding = '10px 0';
+                header.style.background = 'rgba(10, 25, 47, 0.98)';
+            } else {
+                header.style.padding = '20px 0';
+                header.style.background = 'rgba(10, 25, 47, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>
